@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codx Demo</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Codx Demo</h1>
+    </header>
+
+    <main>
+      <h2>Encoding: a:1;b:2;c:3...z:26;</h2>
+
+      <form id="encoding-form">
+        <div class="form-control">
+          <label for="message">Message</label>
+          <input type="text" id="message" name="message" />
+        </div>
+
+        <button type="reset">Clear</button>
+        <button type="submit">Encode</button>
+      </form>
+
+      <div id="result">
+        <p>The encoded message will appear here.</p>
+      </div>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
